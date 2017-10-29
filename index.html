@@ -1,25 +1,178 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My name is...</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="Author" content="Bayu Numan Syifa">
+    <meta name="For" content="TalentBandung">
+    <meta name="Date" content="29 Oktober 2017">
+    <meta name="At" content="BW Premier La Grande">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
+
 <body>
-    <h1 class="judul">GO-WISATA adaas</h1>
-
-    <div class="menu_atas">
-        <a class="menu" href="">HOME</a>
-        <a class="menu" href="">ABOUT</a>
-        <a class="menu" href="">CONTACT US</a>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header"><a class="navbar-brand navbar-link" href="#"><i class="glyphicon glyphicon-phone"></i>WISATA CHAT!</a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active" role="presentation"><a href="#">Home </a></li>
+                    <li role="presentation"><a href="#">About</a></li>
+                    <li role="presentation"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-push-7 phone-preview">
+                    <div class="iphone-mockup"><img src="assets/img/iphone.svg" class="device"></div>
+                </div>
+                <div class="col-md-6 col-md-pull-3 get-it">
+                    <h1>Wisata? Chat Kami, Semua Terjawab.</h1>
+                    <p>Mau tau info info tempat sekitaran saat kamu wisata? Silahkan chat kami, tanpa download aplikasi tambahan!</p>
+                    <p><a class="btn btn-success btn-lg" role="button" href="#"><i class="icon ion-ios-chatboxes"></i> Available on LINE</a><a class="btn btn-primary btn-lg" role="button" href="#"><i class="icon ion-ios-chatboxes-outline"></i> COMING SOON on TELEGRAM</a>
+                        <a
+                        class="btn btn-primary btn-lg" role="button" href="#"><i class="icon ion-ios-chatboxes-outline"></i> COMING SOON on FACEBOOK</a>
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
-    <hr>
-    <img src="asset/images/cordoba_panoramica.jpg" alt="banner top" width="100%">
-
-    <h1>
-            <center>KEMANAPUN WISATANYA, #GOWISATAINAJA</center>
-    </h1>
+    <div class="features-boxed">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Fitur </h2>
+                <p class="text-center">Mau tau apa saja yang dapat kami jawab?</p>
+            </div>
+            <div class="row features">
+                <div class="col-md-4 col-sm-6 item">
+                    <div class="box"><i class="glyphicon glyphicon-map-marker icon"></i>
+                        <h3 class="name">Wisata terdekat!</h3>
+                        <p class="description">Kami berikan semua lokasi wisata terdekat dari tempat kamu berada, semua ya :)</p><a href="#" class="learn-more">Learn more »</a></div>
+                </div>
+                <div class="col-md-4 col-sm-6 item">
+                    <div class="box"><i class="glyphicon glyphicon-time icon"></i>
+                        <h3 class="name">Rute paling cepat!</h3>
+                        <p class="description">Mau menuju tempat wisata? Kami berikan rute paling cepat menuju lokasi wisata tersebut.</p><a href="#" class="learn-more">Learn more »</a></div>
+                </div>
+                <div class="col-md-4 col-sm-6 item">
+                    <div class="box"><i class="glyphicon glyphicon-list-alt icon"></i>
+                        <h3 class="name">To do list, oleh-oleh!</h3>
+                        <p class="description">Catat semua permintaan oleh-oleh, checklist ketika sudah terbeli. So? tidak ada lupa. :D</p><a href="#" class="learn-more">Learn more »</a></div>
+                </div>
+                <div class="col-md-4 col-sm-6 item">
+                    <div class="box"><i class="glyphicon glyphicon-tags icon"></i>
+                        <h3 class="name">Harga ga boong!</h3>
+                        <p class="description">Kami berikan tiket masuk wisata dengan harga ga boong, So? Tidak ada lagi yang tertipu dengan calo.</p><a href="#" class="learn-more">Learn more »</a></div>
+                </div>
+                <div class="col-md-4 col-sm-6 item">
+                    <div class="box"><i class="glyphicon glyphicon-plane icon"></i>
+                        <h3 class="name">Tiket transportasi</h3>
+                        <p class="description">Yeay ini fitur coming soon yang akan memberikan kamu harga tiket ga boong. So? dompet jadi makin tebal</p><a href="#" class="learn-more">Learn more »</a></div>
+                </div>
+                <div class="col-md-4 col-sm-6 item">
+                    <div class="box"><i class="glyphicon glyphicon-phone icon"></i>
+                        <h3 class="name">To do list, perjalanan!</h3>
+                        <p class="description">Catat semua perjalanan tentang kamu, seperti pengeluaran biaya makan atau menemukan kejadian:D</p><a href="#" class="learn-more">Learn more »</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="testimonials">
+        <h2 class="text-center">People Love It!</h2>
+        <blockquote>
+            <p>Semua orang suka yang simple dan mudah. Wisata Chat memberikan kemudahan tersebut. Tinggal chat semua terjawab.</p>
+            <footer>Bayu Nu'man Syifa</footer>
+        </blockquote>
+        <blockquote>
+            <p>Bangun tidur, buka line langsung mendapatkan tempat wisata, lalu memutuskan untuk ke kawah putih, diberikan rute dan penjelasan. Dari kawah putih tidak bingung mau kemana, karena diberikan kembali tempat wisata. Wih jadi makin seru nih wisata!
+                Thanks</p>
+            <footer>Sonia </footer>
+        </blockquote>
+        <blockquote>
+            <p>Harga semua tiket wisata memang paling murah dibandingkan beli ditempat, thanks Wisata Chat! Oleh-olehpun jadi banyak dan tidak ada yang tertinggal dibeli.</p>
+            <footer>Andre </footer>
+        </blockquote>
+    </section>
+    <div class="team-boxed">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Team </h2>
+                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.</p>
+            </div>
+            <div class="row people">
+                <div class="col-md-4 col-sm-6 item">
+                    <div class="box"><img class="img-circle" src="assets/img/1.jpg">
+                        <h3 class="name">Bayu Nu'man Syifa</h3>
+                        <p class="title">PROGRAMMER </p>
+                        <p class="description">Test </p>
+                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 item">
+                    <div class="box"><img class="img-circle" src="assets/img/2.jpg">
+                        <h3 class="name">? </h3>
+                        <p class="title">DESIGN </p>
+                        <p class="description">Test </p>
+                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 item">
+                    <div class="box"><img class="img-circle" src="assets/img/3.jpg">
+                        <h3 class="name">? </h3>
+                        <p class="title">ANDROID </p>
+                        <p class="description">Test </p>
+                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Wisata Chat</h2>
+                    <p> Wisata chat adalah sebuah bot yang memberikan kemudahan para wisatawan untuk mencari tau lokasi tempat wisata terdekat, memberikan rute , dan bahkan kami bisa mendapatkan tiket dengan harga relatif murah dibandingkan beli ditempat
+                        tersebut. Masih banyak lagi fitur yang akan kami berikan.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="row icon-features">
+                        <div class="col-xs-4 icon-feature"><i class="glyphicon glyphicon-cloud"></i>
+                            <p>Saves You Memory </p>
+                        </div>
+                        <div class="col-xs-4 icon-feature"><i class="glyphicon glyphicon-piggy-bank"></i>
+                            <p>Saves You Money</p>
+                        </div>
+                        <div class="col-xs-4 icon-feature"><i class="glyphicon glyphicon-tags"></i>
+                            <p>Free Chat</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h5>Wisata Chat © 2017</h5></div>
+                <div class="col-sm-6 social-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
+
 </html>
